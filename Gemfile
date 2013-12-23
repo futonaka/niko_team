@@ -34,4 +34,5 @@ group :test do
   gem 'rspec'
   gem 'rspec-rails', '~> 3.0.0.beta'
   gem 'capybara'
+  gem 'poltergeist'
 end
