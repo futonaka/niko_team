@@ -1,0 +1,20 @@
+<h1>Add New</h1>
+
+<%= form_for @energy do |f| %>
+
+<p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %><br>
+    <%= f.label :level%><br>
+    <%= f.text_field :level%><br>
+    <%= f.label :date %><br>
+    <%= f.text_field :date %><br>
+    <%= f.label :memo %><br>
+    <%= f.text_field :memo %><br>
+</p>
+
+<p>
+    <%= f.submit %>
+</p>
+
+<% end %>
