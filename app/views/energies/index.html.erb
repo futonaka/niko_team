@@ -1,9 +1,0 @@
-<h1>Energies</h1>
-
-<ul>
-  <% @energies.each do |energy| %>
-  <li><%= link_to energy.name, energy_path(energy.id) %></li>
-  <% end %>
-</ul>
-
-<p><%= link_to "Add new", new_energy_path %></p>
